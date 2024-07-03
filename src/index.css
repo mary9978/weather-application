@@ -2,47 +2,59 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
+@layer base {
   @font-face {
     font-family: "iranSans";
     font-style: normal;
-	font-weight: bold;
-    src: url('/fonts/IRANSansWeb\(FaNum\)_Bold.ttf');
+    font-weight: bold;
+    src: url("/fonts/IRANSansWeb\(FaNum\)_Bold.ttf");
   }
   @font-face {
     font-family: IRANSans;
     font-style: normal;
     font-weight: 200;
-    src: url('/fonts/IRANSansWeb\(FaNum\)_UltraLight.ttf');
+    src: url("/fonts/IRANSansWeb\(FaNum\)_UltraLight.ttf");
   }
 
   @font-face {
     font-family: IRANSans;
     font-style: normal;
     font-weight: 500;
-    src: url('/fonts/IRANSansWeb\(FaNum\)_Medium.ttf');
+    src: url("/fonts/IRANSansWeb\(FaNum\)_Medium.ttf");
   }
   @font-face {
     font-family: IRANSans;
     font-style: normal;
     font-weight: 300;
-    src: url('/fonts/IRANSansWeb\(FaNum\)_Light.ttf');
+    src: url("/fonts/IRANSansWeb\(FaNum\)_Light.ttf");
   }
   :root {
     &,
     &.light-mode {
-      --color-primary: #FFFFFF;
-      --color-success: #00C073;
-      --color-warning: #FF9900;
-      --color-error: #FF4757;
+      --color-primary-1: #3d55cc;
+      --color-primary-2: #ffb219;
+      --color-darkest: #141933;
+      --color-dark: #474c66;
+      --color-medium: #878ca8;
+      --color-light: #cfd2e5;
+      --color-lightest: #e6e8f2;
+      --color-white: #ffffff;
+      --color-success: #69a333;
+      --color-error: #de2c28;
     }
     &.dark-mode {
-      --color-primary: #141933;
+      --color-primary-1: #4661e8;
+      --color-primary-2: #ffbb33;
+      --color-darkest: #ffffff;
+      --color-dark: #e6e8f2;
+      --color-medium: #cfd2e5;
+      --color-light: #878ca8;
+      --color-lightest: #474c66;
+      --color-white: #141933;
+      --color-success: #7ec33e;
+      --color-error: #e55955;
     }
-    
   }
 }
-@layer components{
-
+@layer components {
 }
-
