@@ -1,7 +1,14 @@
+import WeatherForecast from "./components/WeatherForecast"
+import AppLayout from "./pages/AppLayout"
+
 function App() {
   return (
-    <div className="flex items-center justify-center h-screen">
-      <h2 className='text-3xl text-center bg-primary font-iranSans font-bold'>پروژه آب و هوا</h2>
+    <div>
+      <AppLayout>
+      <div className="container h-screen xl:max-w-screen-xl">
+      <WeatherForecast/>
+      </div>
+      </AppLayout>
     </div>
   )
 }

@@ -14,7 +14,7 @@ export default {
         primary: `var(--color-primary)`,
          success: `var(--color-success)`,
          warning: `var(--color-warning)`,
-         error: `var(--color-error)`
+         error: `var(--color-error)`,
       },
     },
   },
