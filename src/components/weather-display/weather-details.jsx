@@ -7,31 +7,35 @@ export default function WeatherDetails() {
   return (
     <div className="flex flex-col w-full gap-1">
       <div className="flex justify-between items-center">
+        <span className="flex items-center gap-2">
+          <img src={cloud} className="w-[30px]" />
+          وضعیت هوا
+        </span>
         <span>{"نیمه آفتابی"}</span>
-        <span className="flex items-center gap-2">
-          وضعیت هوا <img src={cloud} className="w-[30px]" />
-        </span>
       </div>
       <hr />
       <div className="flex justify-between items-center">
+        <span className="flex items-center gap-2">
+          <img src={wind} className="w-[30px]" />
+          وزش باد
+        </span>
         <span>{"6 کیلومتر بر ساعت"}</span>
-        <span className="flex items-center gap-2">
-          وزش باد <img src={wind} className="w-[30px]" />
-        </span>
       </div>
       <hr />
       <div className="flex justify-between items-center">
+        <span className="flex items-center gap-2">
+          <img src={drop} className="w-[30px]" />
+          رطوبت
+        </span>
         <span>{"20%"}</span>
-        <span className="flex items-center gap-2">
-          رطوبت <img src={drop} className="w-[30px]" />
-        </span>
       </div>
       <hr />
       <div className="flex justify-between items-center">
-        <span>{"بسیار زیاد"}</span>
         <span className="flex items-center gap-2">
-          اشعه خورشید <img src={sun} className="w-[30px]" />
+          <img src={sun} className="w-[30px]" />
+          اشعه خورشید
         </span>
+        <span>{"بسیار زیاد"}</span>
       </div>
       <hr />
     </div>
