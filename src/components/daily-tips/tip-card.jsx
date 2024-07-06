@@ -18,9 +18,9 @@ export default function TipCard({ color, text }) {
   const colorClass=`border-r-[color:${colorVar}]`;
 
   return (
-    <div className="rounded-lg border-2 border-[color:var(--color-lightest)] p-6 w-[80vw] shrink-0 shadow-[0px_5px_15px_0px_[color:var(--color-lightest)]]">
+    <div className="rounded-lg border-2 border-[color:var(--color-lightest)] p-6 shrink-0 shadow shadow-[0px_5px_15px_0px_[color:var(--color-lightest)]] h-full">
       <div
-        className={`border-r-[3px] ${colorClass} flex flex-col items-start px-5 gap-2`}
+        className={`border-r-[3px] ${colorClass} flex flex-col items-start px-5 gap-2 h-full`}
       >
         <svg
           width="20"
