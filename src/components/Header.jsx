@@ -1,6 +1,8 @@
+import { useDarkMode } from "../context/DarkModeContext";
 import Logo from "/images/images.jpg";
 import LocationIcon from "/images/location.svg";
 function Header() {
+  const {isDarkMode,toggleDark} = useDarkMode();
   return (
     <nav className="bg-primary px-4 lg:px-7 h-[100px] py-2 border-b shadow-xl rounded-lg mt-4 overflow-hidden">
       <div className=" flex  items-center justify-between">
@@ -13,7 +15,10 @@ function Header() {
             <span className="me-3 text-sm font-medium text-[#474C66] ">
               light
             </span>
-            <input type="checkbox" value="" className="sr-only peer" />
+            <input
+             checked={isDarkMode}
+             onChange={toggleDark}
+             type="checkbox" value="" className="sr-only peer" />
             <div
               className="relative w-11 h-6
            bg-gray-200 peer-focus:outline-none
@@ -55,7 +60,8 @@ function Header() {
             <span className="ms-3 text-sm font-medium text-[#474C66] dark:text-gray-300">
               C
             </span>
-          </label>
+          </label> 
+
         </div>
 
         <div className="lg:w-1/2 flex lg:mx-8 mx-2  items-center bg-[#E6E8F2] rounded-[36px] px-1.5 lg:px-4 py-1.5 gap-x-2">

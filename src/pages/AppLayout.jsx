@@ -3,7 +3,7 @@ import Header from '../components/Header'
 
 function AppLayout({children}) {
   return (
-    <div>
+    <div className='h-screen relative'>
         <Header/>
         {children}
         <Footer/>

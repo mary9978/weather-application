@@ -13,16 +13,16 @@ function Footer() {
           }); 
     }
   return (
-    <footer className="footer">
+    <footer className="footer mt-[10rem]">
     <div className="waves">
       <div className="wave" id="wave1"></div>
       <div className="wave" id="wave2"></div>
       <div className="wave" id="wave3"></div>
       <div className="wave" id="wave4"></div>
     </div>
-    <div className="mx-auto w-full flex items-center justify-center max-w-screen-xl p-4">
+    <div className="mx-auto w-full  flex items-center justify-center max-w-screen-xl p-4">
         <div className="flex flex-col justify-center w-1/2 items-center">
-          <img src={Logo} className="w-14 h-14" alt="" />
+          <img src={Logo} className="w-14 h-14 mb-4" alt="" />
           <p className="font-iranSans text-center text-sm text-white font-medium">
             تمامی اطلاعات ارائه‌شده در این وب‌سایت با دقت بالا جمع‌آوری شده و
             به‌روزرسانی می‌شود. استفاده از مطالب سایت با ذکر منبع بلامانع است.
@@ -38,7 +38,7 @@ function Footer() {
              className="text-white bg-[#3D55CC] py-2 px-4 rounded-md"
             >ارسال</button>
           </div>
-          {/* back to top  */}
+          {/* back to top btn */}
           <div className="flex flex-col items-center mt-4">
              <IoIosArrowDropup onClick={handleScroll} className="text-white w-6 h-6 cursor-pointer"/>
              <p className="text-white font-iranSans text-center">بازگشت به بالا</p>

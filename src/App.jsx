@@ -1,16 +1,18 @@
-import WeatherForecast from "./components/WeatherForecast"
-import AppLayout from "./pages/AppLayout"
+import WeatherForecast from "./components/WeatherForecast";
+import DarkModeProvider from "./context/DarkModeContext";
+import AppLayout from "./pages/AppLayout";
 
 function App() {
   return (
-    <div>
+   <DarkModeProvider>
       <AppLayout>
-      <div className="container h-screen xl:max-w-screen-xl">
-      <WeatherForecast/>
-      </div>
+        <div className="container xl:max-w-screen-xl mx-auto">
+          <WeatherForecast />
+        </div>
       </AppLayout>
-    </div>
-  )
+   </DarkModeProvider>
+
+  );
 }
 
-export default App
+export default App;
