@@ -22,6 +22,9 @@ export default {
          "success":`var(--color-success)`,
          "error":`var(--color-error)`,
       },
+      backgroundImage: {
+        'hero-bg': "url('/src/assets/hero-bg.png')",
+      }
     },
   },
   plugins: [],
