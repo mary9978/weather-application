@@ -4,7 +4,7 @@ import LocationIcon from "/images/location.svg";
 function Header() {
   const {isDarkMode,toggleDark} = useDarkMode();
   return (
-    <nav className="bg-primary px-4 lg:px-7 h-[100px] py-2 border-b shadow-xl rounded-lg mt-4 overflow-hidden">
+    <nav className="bg-primary  px-4 lg:px-7 h-[100px] py-2 border-b shadow-xl rounded-lg mt-4 overflow-hidden">
       <div className=" flex  items-center justify-between">
         <div className="lg:w-1/2 md:flex md:gap-x-2 md:px-4  md:items-center md:justify-between">
 

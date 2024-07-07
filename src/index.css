@@ -75,6 +75,7 @@ footer {
 
 
 .wave {
+  background-color: blue;
   position: absolute;
   top: -100px;
   left: 0;
