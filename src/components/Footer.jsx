@@ -13,7 +13,7 @@ function Footer() {
           }); 
     }
   return (
-    <footer className="footer mt-[10rem]">
+    <footer className="footer mt-4">
     <div className="waves">
       <div className="wave" id="wave1"></div>
       <div className="wave" id="wave2"></div>

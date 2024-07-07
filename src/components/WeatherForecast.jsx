@@ -83,11 +83,11 @@ function WeatherForecast() {
         <h2 className="font-iranSans font-medium text-[#474C66] my-10">پیش بینی ساعتی</h2>
       </div>
 
-       <div className="w-full h-[390px] relative">
+       <div className="w-full h-[390px] relative bg-white rounded-lg shadow-xl p-4">
         <div className="w-6 h-6 absolute right-4 top-1/2 rounded-full ring-2 ring-offset-1 ring-gray-400 cursor-pointer bg-[#3D55CC] flex items-center justify-center">
           <MdKeyboardArrowRight className="w-5 h-5 text-white" onClick={handleUpdateData}/>
         </div>
-       <Line  data={data} options={options} />
+         <Line  data={data} options={options} />
        </div>
      
     </div>
