@@ -1,21 +1,26 @@
 export default function TipCard({ color, text }) {
   let colorVar;
+  let colorClass;
+
   switch (color) {
     case "red":
       colorVar = "var(--color-error)";
+      colorClass="border-r-[color:var(--color-error)]";
       break;
     case "yellow":
       colorVar = "var(--color-primary-2)";
+      colorClass="border-r-[color:var(--color-primary-2)]";
       break;
     case "green":
       colorVar = "var(--color-success)";
+      colorClass="border-r-[color:var(--color-success)]";
       break;
     default:
       colorVar = "var(--color-medium)";
+      colorClass="border-r-[color:var(--color-medium)]";
       break;
   }
 
-  const colorClass=`border-r-[color:${colorVar}]`;
 
   return (
     <div className="rounded-lg border-2 border-[color:var(--color-lightest)] p-6 shrink-0 shadow shadow-[0px_5px_15px_0px_[color:var(--color-lightest)]] h-full">
