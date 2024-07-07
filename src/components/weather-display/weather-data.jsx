@@ -3,7 +3,7 @@ import WeatherDetails from "./weather-details";
 
 export default function WeatherData() {
   return (
-    <div className="font-iranSans text-[color:var(--color-white)] font-light flex flex-col  gap-6 lg:gap-4 lg:w-[250px]">
+    <div className="font-iranSans font-light flex flex-col gap-6 lg:gap-4 lg:w-[250px]">
       <div className="flex">
         <div>1403/02/02</div>
         <div className="mr-5">دوشنبه</div>
