@@ -1,4 +1,3 @@
-import CityTemp from "./components/CityTemp";
 import WeatherForecast from "./components/WeatherForecast";
 import DarkModeProvider from "./context/DarkModeContext";
 import AppLayout from "./pages/AppLayout";

@@ -56,11 +56,11 @@
   }
 }
 @layer components {
-  .input{
+  .input {
     @apply w-full text-sm shadow-none focus:shadow-none border-none outline-none focus:outline-none   focus:ring-0 focus:border-none  text-gray-400 rounded-lg  bg-white;
   }
 }
-body{
+body {
   background-color: var(--color-white);
   scroll-behavior: smooth;
 }
@@ -76,14 +76,12 @@ footer {
   right: 0;
 }
 
-
 .wave {
-  background-color: blue;
   position: absolute;
-  top: -100px;
+  top: -30px;
   left: 0;
   width: 100%;
-  height: 100px;
+  height: 70px;
   background: url("https://i.ibb.co/wQZVxxk/wave.png");
   background-size: 1000px 100px;
 }

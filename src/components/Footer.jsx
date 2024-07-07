@@ -1,4 +1,4 @@
-import Logo from "../../public/images/images.jpg";
+import Logo from "/images/logo.png";
 import { CiTwitter } from "react-icons/ci";
 import { FaInstagram } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa6";
@@ -12,15 +12,15 @@ function Footer() {
     });
   };
   return (
-    <footer className="footer mt-4">
-      {/* <div className="relative w-full "> */}
+    <footer className="footer mt-8">
+      <div className="relative w-full ">
         <div className="waves">
           <div className="wave" id="wave1"></div>
           <div className="wave" id="wave2"></div>
           <div className="wave" id="wave3"></div>
           <div className="wave" id="wave4"></div>
         </div>
-        <div className="mx-auto w-full  flex items-center justify-center max-w-screen-xl p-4">
+        <div className="mx-auto w-full mt-4 flex items-center justify-center max-w-screen-xl p-4">
           <div className="flex flex-col justify-center w-1/2 items-center">
             <img src={Logo} className="w-14 h-14 mb-4" alt="" />
             <p className="font-iranSans text-center text-sm text-white font-medium">
@@ -54,6 +54,7 @@ function Footer() {
             </div>
           </div>
         {/* </div> */}
+      </div>
       </div>
     </footer>
   );

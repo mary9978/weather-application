@@ -1,5 +1,5 @@
 import { useDarkMode } from "../context/DarkModeContext";
-import Logo from "/images/images.jpg";
+import Logo from "/images/logo.png";
 import LocationIcon from "/images/location.svg";
 function Header() {
   const {isDarkMode,toggleDark} = useDarkMode();
