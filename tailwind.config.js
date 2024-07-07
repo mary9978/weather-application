@@ -11,10 +11,16 @@ export default {
         "iranSans":["IRANSans",...fontFamily.sans]
       },
       colors: {
-        primary: `var(--color-primary)`,
-         success: `var(--color-success)`,
-         warning: `var(--color-warning)`,
-         error: `var(--color-error)`
+         "primary-1":`var(--color-primary-1)`,
+         "primary-2":`var(--color-primary-2)`,
+         "darkest":`var(--color-darkest)`,
+         "dark":`var( --color-dark)`,
+         "medium":`var(--color-medium)`,
+         "light":`var(--color-light)`,
+         "lightest":`var(--color-lightest)`,
+         "white":`var(--color-white)`,
+         "success":`var(--color-success)`,
+         "error":`var(--color-error)`,
       },
     },
   },
