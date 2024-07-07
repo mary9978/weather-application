@@ -15,7 +15,6 @@
     font-weight: 200;
     src: url("/fonts/IRANSansWeb\(FaNum\)_UltraLight.ttf");
   }
-
   @font-face {
     font-family: IRANSans;
     font-style: normal;
@@ -60,6 +59,10 @@
   .input{
     @apply w-full text-sm shadow-none focus:shadow-none border-none outline-none focus:outline-none   focus:ring-0 focus:border-none  text-gray-400 rounded-lg  bg-white;
   }
+}
+body{
+  background-color: var(--color-white);
+  scroll-behavior: smooth;
 }
 footer {
   width: 100%;
