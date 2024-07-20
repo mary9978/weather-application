@@ -64,12 +64,13 @@ function WeaklyWeather() {
         slidesPerView={1}
         navigation={true}
         breakpoints={{
-          640: {
-            slidesPerView: 2,
+          768: {
+            slidesPerView: 3,
           },
           1024: {
             slidesPerView: 5,
           },
+          
         }}
       >
         {data.map((item, index) => (

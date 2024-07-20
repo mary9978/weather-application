@@ -3,10 +3,10 @@ import TitleComponent from "./TitleComponent";
 import icon from "/images/calendar.svg";
 function OtherCityTemp() {
   return (
-    <div className="container flex-col justify-between px-4">
+    <div className="container flex-col justify-between px-4 mb-8">
       <TitleComponent text={"دمای شهرهای دیگر"} icon={icon} />
 
-      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-[10px]  mt-3 text-dark">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3   text-dark">
         <div className="flex items-center justify-around gap-x-3 rounded-lg w-full xs:w-200 md:w-[350px] lg:w-[320px] xl:w-[400px]  h-[88px] shadow-cardShadow border-2 border-primary-1 ">
           <span className="leading-leading-04 text-dark">مشهد</span>
           <span>

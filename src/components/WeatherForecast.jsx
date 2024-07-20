@@ -67,7 +67,7 @@ function WeatherForecast() {
 				scaleLabel: {
 					display: false,
 				}
-			}]
+			}],
     }
   };
   const handleUpdateData =()=>{
